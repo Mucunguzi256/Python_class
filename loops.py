@@ -25,6 +25,7 @@ actions = ['eats', 'sleeps', 'dances']
 for name in names:
     for action in actions:
         print(name + ' ' + action + '.')
+        
 for action in actions:
     for name in names:
         print(name + ' ' + action + '.')
