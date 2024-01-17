@@ -9,7 +9,7 @@ picture = [
 
 for image in picture:
     for pixel in image:
-        if pixel == 1:
+        if pixel:
             print('*', end=' ')
         else:
             print(' ', end=' ')
