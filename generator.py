@@ -8,6 +8,8 @@ next(g)
 next(g)
 print(next(g))
 
+print()
+
 def fib(num):
     a = 0
     b = 1
@@ -15,7 +17,7 @@ def fib(num):
         yield a
         temp = a
         a = b
-        b = a + b
+        b = temp + b
 
 for x in fib(21):
     print(x)
