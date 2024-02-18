@@ -1,4 +1,5 @@
 from random import randint
+import sys
 
 answer = randint(1, 10)
 
